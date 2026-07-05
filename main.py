@@ -1,7 +1,7 @@
 
 import streamlit as st
-from get_competition import get_competition,get_clean_events,get_matches
-from shots_visual import plot_shot,plot_passes,plot_mostTime
+from data import get_competition,get_clean_events,get_matches
+from  charts import plot_shot,plot_passes,plot_mostTime
 
 st.set_page_config(
     page_title='Football stats analysis',
